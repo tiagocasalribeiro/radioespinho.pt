@@ -1,0 +1,96 @@
+/* Estilos Básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Layout do Container */
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 0;
+}
+
+/* Conteúdo Principal */
+.content h3 {
+    font-size: 2rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.content strong {
+    color: #007bff;
+}
+
+/* Links Sociais */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Estilo para o Logotipo */
+.logo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza a imagem */
+}
